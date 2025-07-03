@@ -11,7 +11,10 @@ We use IMDb raw reviews as unsupervised prompts to guide generation and preferen
 4. Fine-tune GPT-2 using the DPO loss.
 
 
-<img src="diagram.png" width="400">
+<div align="center">
+  <img src="diagram.png" width="400">
+</div>
+
 
 
 ## DPO Loss Function
