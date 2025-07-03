@@ -46,7 +46,7 @@ Training metrics like loss, preference margins, and accuracy are tracked using W
 This plot shows how accurately the fine-tuned model identifies the preferred response (`y⁺`) over the rejected one (`y⁻`). The training accuracy quickly approaches 100%, while the evaluation accuracy steadily improves, indicating strong preference learning.
 
 <div align="center">
-  <img src="Accuracy.png" width="400">
+  <img src="Accuracy.png" width="500">
 </div>
 
 ---
@@ -56,7 +56,7 @@ This plot shows how accurately the fine-tuned model identifies the preferred res
 This plot tracks the DPO loss across training steps. The training loss rapidly decreases and stabilizes near zero, while the evaluation loss declines more gradually.
 
 <div align="center">
-  <img src="loss.png" width="400">
+  <img src="loss.png" width="500">
 </div>
 
 ---
@@ -66,5 +66,5 @@ This plot tracks the DPO loss across training steps. The training loss rapidly d
 Reward margins reflect the model’s confidence in selecting the better response. Both training and evaluation margins increase over time, suggesting the model is learning a stronger signal for positive sentiment generation.
 
 <div align="center">
-  <img src="Margin.png" width="400">
+  <img src="Margin.png" width="500">
 </div>
