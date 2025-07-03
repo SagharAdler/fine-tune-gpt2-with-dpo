@@ -24,10 +24,10 @@ The DPO loss encourages the model to prefer completions with higher implicit rew
 \mathcal{L}_{\text{DPO}} = -\log \left( \frac{\exp(\beta \log \pi_\theta(y^+ \mid x))}{\exp(\beta \log \pi_\theta(y^+ \mid x)) + \exp(\beta \log \pi_\theta(y^- \mid x))} \right)
 ```
 Where:
-- y⁺ = preferred response
-- y⁻ = rejected response
-- πₜₕₑₜₐ = model policy
-- β = temperature-like hyperparameter
+- $y^+$ = preferred response
+- $y^-$ = rejected response
+- $\pi_\theta$ = model policy
+- $\beta$ = temperature-like hyperparameter
 
 
 ## Training Environment
@@ -39,7 +39,7 @@ Where:
 
 ## Visualizations
 
-Training metrics like loss, preference margins, and accuracy are tracked using Weights & Biases (W&B).
+Training metrics are tracked using Weights & Biases (W&B).
 
 ### 1. DPO Classification Accuracy
 
